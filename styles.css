@@ -1,0 +1,125 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans Pro', sans-serif;
+    text-align: center;
+    background-color: #eee;
+}
+.intro{
+    height: 90vh;
+    position: relative;
+}
+
+img{
+    height: 100%;
+    width: 100%;
+    opacity: .90;
+}
+
+.introText{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+
+}
+.name{
+    margin: auto;
+    font-family: 'Pacifico', cursive;
+    color: white;
+    font-size: 2.5em;
+}
+
+hr{
+    width: 80%;
+    font-size: 1.2;
+    border: none;
+    color: white;
+    background-color:#eee;
+    height: 3px;
+}
+
+.description{
+    letter-spacing: 0.2em;
+    color: #eee;
+    font-size: 12pt;
+}
+
+.about{
+    background-color:white;
+    margin: 16px;
+    padding: 16px;
+}
+
+h2{
+    font-size: 20px;
+    letter-spacing: 0.22em;
+    margin: 0 0 32px;
+    /* padding-top: 32px; */
+    color: #444444;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.about p{
+    color: #666666;
+    font-size: 14px;
+    font-family: "Source Sans Pro", Helvetica, sans-serif;
+    margin-bottom: 32px;
+    font-weight: 100;
+}
+
+.fa-user{
+    /* color: black; */
+    font-size: 32px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+button{
+    width: 100%;
+    padding: 12px 0;
+    font-size: 14px;
+    border: 2px solid black;
+    background-color: white;
+    border-radius: 1px;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #444444;
+    border-radius: 4px;
+    margin-bottom: 32px;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+.btnText{
+    font-weight: 100;
+}
+
+/* @-webkit-keyframes fadeIn {
+    from {
+      opacity: 0;
+      background-color: black;
+    }
+  
+    to {
+      opacity: 0.5;
+    }
+  }
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+      background-color: black;
+    }
+  
+    to {
+      opacity: 0.5;
+    }
+  }
+  
+  .fadeIn {
+    -webkit-animation-name: fadeIn;
+    animation-name: fadeIn;
+    animation-delay: 2s;
+    animation-duration: 1s;
+  } */
