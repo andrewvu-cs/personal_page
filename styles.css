@@ -50,7 +50,8 @@ hr{
 
 /* ABOUT ME PORTION */
 
-.about{
+.about,
+.skills {
     background-color:white;
     margin: 16px;
     padding: 16px;
@@ -110,13 +111,15 @@ button:hover{
     width: 85%;
 }
 
-
+.contacts{
+    margin-top: 32px;
+}
 
 #contact_me{
     /* letter-spacing: 0.4em; */
     width: 75%;
     margin:auto;
-    margin-top: 16px;
+    margin-top: 32px;
     margin-bottom: 20px;
 }
 
@@ -167,6 +170,24 @@ button:hover{
 .projBtn{
     width: 90%;
     margin: 0 0 16px 0;
+}
+
+.projBtn2{
+    width: 90%;
+    margin: 0 0 32px 0;
+}
+
+.column{
+    column-count: 2;
+    column-width: 32px;
+    margin-bottom:32px;
+    column-rule-style: solid;
+    column-rule-width: 1px;
+    column-rule-color: black;
+}
+
+.column p{
+    margin: 0;
 }
 
 /* @-webkit-keyframes fadeIn {
