@@ -16,7 +16,8 @@ img{
     opacity: .90;
 }
 
-.introText{
+.introText,
+.projText{
     position: absolute;
     top: 50%;
     left: 50%;
@@ -64,6 +65,7 @@ h2{
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.project p,
 .about p{
     color: #666666;
     font-size: 15.5px;
@@ -108,6 +110,8 @@ button:hover{
     width: 85%;
 }
 
+
+
 #contact_me{
     /* letter-spacing: 0.4em; */
     width: 75%;
@@ -137,6 +141,32 @@ button:hover{
 
 .logos:hover{
     color: salmon;
+}
+
+/* Projects */
+.projImg{
+    height: 35vh;
+    opacity: 0.95;
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.project{
+    background-color:white;
+    margin: 16px;
+    padding: 0;
+}
+
+.project h2{
+    color:white;
+    text-transform: uppercase;
+    letter-spacing: 0.3em;
+}
+
+
+.projBtn{
+    width: 90%;
+    margin: 0 0 16px 0;
 }
 
 /* @-webkit-keyframes fadeIn {
