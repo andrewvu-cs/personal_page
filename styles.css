@@ -61,7 +61,6 @@ h2{
     font-size: 20px;
     letter-spacing: 0.22em;
     margin: 0 0 32px;
-    /* padding-top: 32px; */
     color: #444444;
     font-family: 'Source Sans Pro', sans-serif;
 }
@@ -78,7 +77,6 @@ h2{
 }
 
 .fa-user{
-    /* color: black; */
     font-size: 32px;
     margin-top: 16px;
     margin-bottom: 20px;
@@ -103,8 +101,6 @@ button{
 button:hover{
     color: salmon;
     border-color: salmon;
-    /* animation-name: btnChange;
-    animation-duration: 4s; */
 }
 
 .btnText{
@@ -116,7 +112,6 @@ button:hover{
 }
 
 #contact_me{
-    /* letter-spacing: 0.4em; */
     width: 75%;
     margin:auto;
     margin-top: 32px;
@@ -136,8 +131,6 @@ button:hover{
     font-size: 24px;
     margin-bottom: 32px;
     color: black;
-    /* margin-left: 16px; */
-    /* margin-right: 16px; */
     letter-spacing: 0.5em;
     transition: 0.3s;
 }
@@ -152,6 +145,7 @@ button:hover{
     opacity: 0.95;
     position: relative;
     margin-bottom: 32px;
+    overflow: hidden;
 }
 
 .project{
@@ -190,31 +184,16 @@ button:hover{
     margin: 0;
 }
 
-/* @-webkit-keyframes fadeIn {
-    from {
-      opacity: 0;
-      background-color: black;
-    }
+.projectImage{
+    max-width: 100%;
   
-    to {
-      opacity: 0.5;
-    }
-  }
-  
-  @keyframes fadeIn {
-    from {
-      opacity: 0;
-      background-color: black;
-    }
-  
-    to {
-      opacity: 0.5;
-    }
-  }
-  
-  .fadeIn {
-    -webkit-animation-name: fadeIn;
-    animation-name: fadeIn;
-    animation-delay: 2s;
-    animation-duration: 1s;
-  } */
+  -moz-transition: all 0.3s;
+  -webkit-transition: all 0.3s;
+  transition: all 0.3s;
+}
+
+.projectImage:hover{
+    -moz-transform: scale(1.2);
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}
